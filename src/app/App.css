@@ -1,0 +1,36 @@
+.selected {
+  background-color: #151517;
+}
+
+.item {
+  margin: 15px;
+  padding: 15px;
+}
+
+.navbar{
+  position: absolute;
+}
+
+.navbar-items {
+  position: relative;
+  text-align: center;
+}
+
+.highlight {
+  position: absolute;
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #151517;
+
+  /* to ideally be the same as the item's height */
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 11px 2px #00000073;
+  
+  /* to ideally be the same as the item's width */
+  /* width: 60px;  */
+}
+
+.active {
+  color: #afd2fa
+}
