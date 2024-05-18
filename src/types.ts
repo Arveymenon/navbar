@@ -1,6 +1,2 @@
-export type Item = {
-    content: string | JSX.Element,
-    text?: string
-}
-export { default as App } from './app/App';
+export { default as App } from './navbar/navbar';
 // export root as './index';

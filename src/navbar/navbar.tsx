@@ -1,9 +1,8 @@
 import React from 'react';
 import { useEffect, useRef, useState } from 'react';
-import './App.css';
+import './navbar.css';
 import { motion } from "framer-motion"
-import { Item } from '../types';
-// import { Item } from '../';
+import { Item } from './types/item';
 
 const highlightState = {
   left: 0,
@@ -14,7 +13,7 @@ const highlightState = {
   duration: 1
 }
 
-function App(params: {items: Item[]}) {
+function Navbar(params: {items: Item[]}) {
 
   const [selectedItem, setSelectedItem] = useState(0)
   const [highlight, setHighlight] = useState(highlightState)
@@ -85,4 +84,4 @@ function App(params: {items: Item[]}) {
   );
 }
 
-export default App;
+export default Navbar;

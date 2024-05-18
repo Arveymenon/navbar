@@ -1,23 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './app/App';
+import Navbar from './navbar/navbar';
 import reportWebVitals from './reportWebVitals';
-import { Item } from './types';
-// import { Item } from '.';
+import CartButton from './cartButton/cartButton';
 
-export function renderApp(items: Item[]) {}
 let items = [
   {content: "item1", text: ""},
   {content: "item2"},
   {content: "item3", text: ""}
 ]
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
 );
 root.render(
   <React.StrictMode>
-    <App items={items}/>
+    <Navbar items={items}/>
+    <CartButton />
   </React.StrictMode>
 );
 
