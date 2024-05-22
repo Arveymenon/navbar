@@ -18,6 +18,7 @@ root.render(
   <React.StrictMode>
     <Navbar items={items}/>
     <CartButton />
+    <div className="testBlock"></div>
   </React.StrictMode>
 );
 

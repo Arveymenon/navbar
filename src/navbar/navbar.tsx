@@ -59,7 +59,7 @@ function Navbar(params: {items: Item[]}) {
         
         <motion.div className="highlight"
             initial={{ width: highlight.initial.width }}
-            animate={{ width: [highlight.initial.width - 20, highlight.initial.width + 50, highlight.initial.widthAnimate], x: highlight.left }}
+            animate={{ width: [highlight.initial.width - 10, highlight.initial.width + 10, highlight.initial.widthAnimate], x: highlight.left }}
             transition={{duration: 0.5}}
           />
 

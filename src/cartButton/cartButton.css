@@ -1,20 +1,38 @@
+.cartButton {
+    position: relative;
+    width: fit-content;
+}
 button {
+    overflow: auto;
+    position: relative;
+    display: flex;
+
     background: #151517;
     color: #fff;
     border-radius: 15px 5px 15px 5px;
     padding: 10px 15px;
 
-    display: "flex"
 }
 
 .cartIcon {
     padding-right: 10px;
 }
 
-.cartIcon .svg {
-    fill: rgb(255, 255, 255);
-    width: 25px;
+.itemIcon {
+    width: 12px;
+    position: absolute;
+    left: 43%;
 }
-.cartIcon .text {
 
+.itemIcon svg {
+    fill: rgb(255, 255, 255);
 }
+
+.cartIcon svg {
+    fill: rgb(255, 255, 255);
+    width: fit-content;
+}
+
+/* .cartIcon .text {
+
+} */

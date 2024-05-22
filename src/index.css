@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.root {
+#root {
     margin-left: 20%;
     margin-top: 5%;
 }
